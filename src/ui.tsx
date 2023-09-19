@@ -51,21 +51,6 @@ const uiComponent = () => (
         fontSize={18}
         uiTransform={{ width: '100%', height: 30 } }
       />
-      <Label
-        onMouseDown={() => {console.log('# Cubes clicked !')}}
-        value={`# Cubes: ${[...engine.getEntitiesWith(Cube)].length}`}
-        fontSize={18}
-        uiTransform={{ width: '100%', height: 30 } }
-      />
-      <Button
-        uiTransform={{ width: 100, height: 40, margin: 8 }}
-        value='Spawn cube'
-        variant='primary'
-        fontSize={14}
-        onMouseDown={() => {
-          
-        }}
-      />
      </UiEntity>
   </UiEntity>
 )

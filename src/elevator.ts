@@ -70,7 +70,7 @@ export function createElevator(){
     function SimpleMove() {
         let transform = Transform.getMutable(plat)
         if (inTrigger) {
-            transform.position = Vector3.add(Vector3.scale(Vector3.Forward(), 0.2), transform.position)
+            transform.position = Vector3.add(Vector3.scale(Vector3.Up(), 0.2), transform.position)
         }
         else {
             Reset
