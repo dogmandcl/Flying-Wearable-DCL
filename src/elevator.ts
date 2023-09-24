@@ -40,7 +40,7 @@ export function createElevator(){
 
     Transform.create(plat3, {
         position: Vector3.create(0, .5, 0),
-        scale: Vector3.create(2, 5, 4),
+        scale: Vector3.create(2, 6, 4),
         rotation: Quaternion.fromEulerDegrees(90, 0, 0),
         parent: plat
     })
